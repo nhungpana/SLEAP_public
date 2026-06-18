@@ -41,36 +41,9 @@ class LoadSidebar():
         #     st.session_state.page = "processing_pipeline"
         if st.sidebar.button("⚙️ Training Model"):
             st.session_state.page = "training_model"
-        if st.sidebar.button("🤖 Chatbot"):
-            st.session_state.page = "chatbot"
+        # if st.sidebar.button("🤖 Chatbot"):
+        #     st.session_state.page = "chatbot"
         
 
-    # def sidebar_info_v3(self, dataset_name=None):
-    #     st.sidebar.title("Menu")
 
-    #     # --- Home button ---
-    #     with st.sidebar.expander("🏠 Home", expanded=False):
-    #         if st.button("Go to Home"):
-    #             st.session_state.page = "home"
-
-    #     # --- Dataset dropdown (expandable) ---
-    #     with st.sidebar.expander("📊 Select Dataset", expanded=False):
-    #         if st.button("Go to Datasets"):
-    #             st.session_state.page = "datasets"
-    #         dataset_name = [
-    #             "Sleep Heart Health Study (SHHS)", 
-    #             "Wiscosin Sleep Cohort (WSC)"
-    #             ]
-    #         self.sidebar_selection(dataset_name)
-
-    #     # --- Settings button ---
-    #     with st.sidebar.expander("⚙️ Settings", expanded=False):
-    #         if st.button("Go to Settings"):
-    #             st.session_state.page = "settings"
-    #         st.selectbox(
-    #             "Select settings category",
-    #             ["General", "Advanced", "About"],
-    #             label_visibility="collapsed",
-    #             key="settings"
-    #         )
                         

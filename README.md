@@ -5,7 +5,7 @@ Sleep Learning and Explainable Apnea Platform
 ## Overview
 
 SLEAP is a Streamlit-based research interface for exploring machine learning approaches to obstructive sleep apnea (OSA) risk assessment. The platform combines questionnaire-derived variables, clinical and lifestyle information, reference cohort statistics, CatBoost prediction models, and explainable artificial intelligence methods.
-https://58yrdhanodnttej9vsyhsc.streamlit.app/
+https://sleap-git-ubicomp.streamlit.app/
 
 The current prototype focuses on three main workflows:
 
