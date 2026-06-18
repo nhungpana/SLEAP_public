@@ -1234,11 +1234,11 @@ class LoadSelfTestPage:
 
                         pdf_buffer = generate_pdf(input_df, prediction_text, force_fig)
 
-                        st.download_button(
-                            label="Download Report (PDF)",
-                            data=pdf_buffer,
-                            file_name="OSA_report.pdf",
-                            mime="application/pdf"
-                        )
+                        # st.download_button(
+                        #     label="Download Report (PDF)",
+                        #     data=pdf_buffer,
+                        #     file_name="OSA_report.pdf",
+                        #     mime="application/pdf"
+                        # )
 
             
